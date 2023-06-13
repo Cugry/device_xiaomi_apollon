@@ -299,10 +299,6 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
-# Notchbar killer
-PRODUCT_PACKAGES += \
-    NotchBarKiller
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
