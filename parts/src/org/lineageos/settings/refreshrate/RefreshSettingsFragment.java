@@ -188,8 +188,10 @@ public class RefreshSettingsFragment extends PreferenceFragment
             case RefreshUtils.STATE_STANDARD:
                 return R.drawable.ic_refresh_60;
             case RefreshUtils.STATE_EXTREME:
-                return R.drawable.ic_refresh_120;
+                return R.drawable.ic_refresh_144;
             case RefreshUtils.STATE_HIGH:
+                return R.drawable.ic_refresh_120;
+            case RefreshUtils.STATE_MEDIUM:
                 return R.drawable.ic_refresh_90;
             case RefreshUtils.STATE_DEFAULT:
             default:
@@ -222,6 +224,7 @@ public class RefreshSettingsFragment extends PreferenceFragment
         private final int[] items = {
                 R.string.refresh_default,
                 R.string.refresh_standard,
+                R.string.refresh_medium,
                 R.string.refresh_high,
                 R.string.refresh_extreme
         };
